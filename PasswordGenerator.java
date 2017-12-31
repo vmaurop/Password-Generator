@@ -16,7 +16,7 @@ public class PasswordGenerator
 		String charsUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		String symbols = "!@#$%^&*_=+-/[]{}:'()><?";
 
-		String x = numbers + charsLow + charsUpper + symbols; // A string with all tha above
+		String x = numbers + charsLow + charsUpper + symbols; // A string with all the above
 		Random r = new Random();
 		
 		char[] password = new char[len_password];
